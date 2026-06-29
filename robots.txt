@@ -1,0 +1,24 @@
+# robots.txt for Lathish Photography
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.lathishphotography.com/sitemap.xml
+
+# Disallow directories that shouldn't be crawled
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /photos/
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
