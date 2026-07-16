@@ -90,7 +90,7 @@
   "url": "https://www.lathishphotography.com/",
   "telephone": "+919845219355",
   "email": "lathishphotography@gmail.com",
-  "priceRange": "₹₹₹",
+  "priceRange": "???",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Divya Enclave, Opp Canara College, Jail Rd,",
@@ -340,8 +340,8 @@ img{max-width:100%;display:block;height:auto}
 #navbar .container{width:100%;max-width:100%}
 .nav-inner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:2rem;height:72px;padding:0 2rem;box-sizing:border-box}
 .nav-logo{display:flex;align-items:center;padding:0;background:transparent;border-radius:0;flex-shrink:0;height:100%}
-.logo-img{height:48px;width:auto;object-fit:contain;display:block;transition:transform .3s ease,filter .3s ease;filter:drop-shadow(0 0 8px rgba(201,169,110,.15))}
-.logo-img:hover{transform:scale(1.05);filter:drop-shadow(0 0 14px rgba(201,169,110,.3))}
+.logo-img{height:56px;width:auto;object-fit:contain;display:block;transition:transform .3s ease}
+.logo-img:hover{transform:scale(1.05)}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {animation-duration: 0.01ms !important;animation-iteration-count: 1 !important;transition-duration: 0.01ms !important;scroll-behavior: auto !important}
 }
@@ -445,11 +445,12 @@ img{max-width:100%;display:block;height:auto}
 .filter-btn.active::before,.filter-btn:hover::before{opacity:1}
 .masonry{columns:4;column-gap:1rem;margin-bottom:2rem}
 .masonry-item{break-inside:avoid;margin-bottom:1rem;position:relative;overflow:hidden;cursor:pointer;border-radius:10px;touch-action:manipulation;box-shadow:0 4px 16px rgba(0,0,0,.3);transition:all .4s cubic-bezier(0.4, 0, 0.2, 1)}
+.masonry-item img{width:100%;height:auto;display:block}
 .masonry-item::before{content:"";position:absolute;inset:0;border:2px solid transparent;border-radius:10px;transition:border-color .4s ease;z-index:2;pointer-events:none}
 .masonry-item:hover::before{border-color:rgba(201,169,110,.6)}
 .masonry-item img{width:100%;display:block;transition:transform .6s cubic-bezier(0.4, 0, 0.2, 1);backface-visibility:hidden}
 .masonry-item:hover img,.masonry-item:active img{transform:scale(1.08)}
-.masonry-item-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,169,110,.3),rgba(8,8,8,.6));opacity:0;transition:opacity .4s ease;display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:#fff;z-index:1}
+.masonry-item-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(201,169,110,.3),rgba(8,8,8,.6));opacity:0;transition:opacity .4s ease;display:flex;align-items:center;justify-content:center;z-index:1}
 .masonry-item:hover .masonry-item-overlay,.masonry-item:active .masonry-item-overlay{opacity:1}
 .masonry-item.hidden{display:none}
 .gallery-cta{text-align:center}
@@ -531,7 +532,7 @@ img{max-width:100%;display:block;height:auto}
 #lightbox img{max-width:90vw;max-height:90vh;object-fit:contain}
 #lightbox-close{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:var(--white);cursor:pointer;font-size:2rem;line-height:1;transition:color .3s ease}
 #lightbox-close:hover{color:var(--gold)}
-/* LAZY IMAGE FADE-IN — no blink, smooth reveal */
+/* LAZY IMAGE FADE-IN � no blink, smooth reveal */
 .lazy-img{opacity:0;transition:opacity .4s ease}
 .lazy-img.loaded{opacity:1}
 /* SKELETON shimmer for gallery items while loading */
@@ -866,7 +867,7 @@ img{max-width:100%;display:block;height:auto}
       <div class="nav-right">
         <div class="nav-phone">
           <a href="tel:+919845219355" aria-label="Call Lathish Photography">
-            <span class="phone-icon">📞</span>
+            <span class="phone-icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
             <span class="phone-text">+91 98452 19355</span>
           </a>
         </div>
@@ -937,7 +938,7 @@ img{max-width:100%;display:block;height:auto}
         <p class="section-label">About Us</p>
         <h2 id="about-heading" class="section-title">Crafting Visual <span>Stories</span> with Heart</h2>
         <div class="about-divider"></div>
-        <p class="about-text">Welcome to Lathish Photography — Mangalore's premier destination for wedding, pre-wedding, portrait and event photography. Based in the heart of Mangalore, we have spent over 25 years capturing the most precious moments of life with artistic precision and genuine emotion.</p>
+        <p class="about-text">Welcome to Lathish Photography � Mangalore's premier destination for wedding, pre-wedding, portrait and event photography. Based in the heart of Mangalore, we have spent over 25 years capturing the most precious moments of life with artistic precision and genuine emotion.</p>
         <p class="about-text" style="margin-top:1rem">Our philosophy is simple: every photograph should tell a story. From the quiet glance between newlyweds to the joyful chaos of a family celebration, we are there to freeze those fleeting seconds into timeless art. We serve clients across Mangalore, Udupi, Manipal, Kasaragod and all of Coastal Karnataka.</p>
         <div class="about-stats">
           <div class="stat">
@@ -970,32 +971,32 @@ img{max-width:100%;display:block;height:auto}
     </div>
     <div class="services-grid" role="list">
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">❤</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/><circle cx="12" cy="13" r="1.5" fill="currentColor"/></svg></div>
         <h3 class="service-title">Wedding Photography</h3>
         <p class="service-desc">Full-day wedding coverage capturing every ritual, emotion, and candid moment. From the mehendi ceremony to the final farewell, we document your love story with cinematic artistry.</p>
       </div>
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">📷</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
         <h3 class="service-title">Pre-Wedding Shoots</h3>
         <p class="service-desc">Romantic couple sessions at stunning locations across coastal Karnataka. We craft intimate, editorial-style portraits that celebrate your unique bond before the big day.</p>
       </div>
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">⭐</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="8" cy="15" r="1" fill="currentColor" stroke="none"/><circle cx="12" cy="15" r="1" fill="currentColor" stroke="none"/><circle cx="16" cy="15" r="1" fill="currentColor" stroke="none"/></svg></div>
         <h3 class="service-title">Event Photography</h3>
         <p class="service-desc">Corporate events, birthday celebrations, engagements, and cultural functions — we bring the same dedication and artistry to every event, big or small.</p>
       </div>
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">👶</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><!-- head --><circle cx="12" cy="5" r="3"/><!-- body --><rect x="9" y="9" width="6" height="5" rx="1.5"/><!-- left arm --><path d="M9 10 Q5 10 4 12 Q4 14 6 14"/><!-- right arm --><path d="M15 10 Q19 10 20 12 Q20 14 18 14"/><!-- left leg bent --><path d="M10 14 Q8 16 7 18 Q8 20 10 20 Q12 20 12 18"/><!-- right leg bent --><path d="M14 14 Q16 16 17 18 Q16 20 14 20 Q12 20 12 18"/></svg></div>
         <h3 class="service-title">Baby Shoot</h3>
         <p class="service-desc">Precious newborn and baby milestone sessions in a safe, comfortable studio environment. Capturing those tiny fingers, sleepy smiles, and first moments of wonder.</p>
       </div>
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">🤰</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><!-- large heart behind --><path d="M15 40 Q5 20 20 15 Q35 10 50 30 Q65 10 80 15 Q95 20 85 40 Q75 60 50 80 Q25 60 15 40z"/><!-- woman silhouette side profile --><circle cx="45" cy="12" r="7"/><!-- hair bun --><circle cx="48" cy="7" r="3"/><!-- neck --><path d="M45 19 L44 24"/><!-- body --><path d="M44 24 Q38 28 37 35 Q36 44 38 50 Q39 58 36 66 L42 68 L44 58 L46 66 L52 66 L50 56"/><!-- belly bump --><path d="M44 30 Q55 32 58 42 Q60 52 52 58 L50 56 Q42 54 38 50"/><!-- arm on belly --><path d="M37 40 Q32 44 33 50 Q34 54 37 56"/><!-- small heart on belly --><path d="M46 42 Q44 39 42 41 Q40 43 44 47 Q48 43 52 41 Q50 39 48 42z"/></svg></div>
         <h3 class="service-title">Maternity Shoot</h3>
         <p class="service-desc">Celebrating the beauty of motherhood with elegant, glowing maternity portraits. Indoor studio sessions and outdoor golden-hour shoots tailored to your comfort.</p>
       </div>
       <div class="service-card reveal" role="listitem">
-        <div class="service-icon" aria-hidden="true">🎥</div>
+        <div class="service-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/><circle cx="9" cy="12" r="2.5"/><circle cx="9" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div>
         <h3 class="service-title">Cinematic Videography</h3>
         <p class="service-desc">Cinematic wedding films and highlight reels that you will treasure forever. Drone footage, slow-motion sequences, and professional color grading for a movie-like experience.</p>
       </div>
@@ -1018,29 +1019,35 @@ img{max-width:100%;display:block;height:auto}
       <div class="insta-placeholder" data-src="https://www.instagram.com/reel/DW6Dyr2Dpvp/">
         <div class="insta-ph-thumb">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(201,169,110,.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="rgba(201,169,110,.6)" stroke="none"/></svg>
-          <div class="insta-ph-play">▶</div>
-          <p class="insta-ph-label">Loading reel…</p>
+          <div class="insta-ph-play"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="rgba(201,169,110,.6)"><polygon points="5,3 19,12 5,21"/></svg></div>
+          <p class="insta-ph-label">Loading Reel...</p>
         </div>
       </div>
       <div class="insta-placeholder" data-src="https://www.instagram.com/reel/C9bQ8wFvvUC/">
         <div class="insta-ph-thumb">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(201,169,110,.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="rgba(201,169,110,.6)" stroke="none"/></svg>
-          <div class="insta-ph-play">▶</div>
-          <p class="insta-ph-label">Loading reel…</p>
+          <div class="insta-ph-play"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="rgba(201,169,110,.6)"><polygon points="5,3 19,12 5,21"/></svg></div>
+          <p class="insta-ph-label">Loading Reel...</p>
         </div>
       </div>
       <div class="insta-placeholder" data-src="https://www.instagram.com/reel/DYpVNaYO3vM/">
         <div class="insta-ph-thumb">
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(201,169,110,.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="rgba(201,169,110,.6)" stroke="none"/></svg>
-          <div class="insta-ph-play">▶</div>
-          <p class="insta-ph-label">Loading reel…</p>
+          <div class="insta-ph-play"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="rgba(201,169,110,.6)"><polygon points="5,3 19,12 5,21"/></svg></div>
+          <p class="insta-ph-label">Loading Reel...</p>
         </div>
       </div>
     </div>
 
     <div style="text-align:center;margin-top:2.5rem" class="reveal">
       <a href="https://www.instagram.com/lathish_photography" target="_blank" rel="noopener" class="btn btn-outline">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        <svg width="20" height="20" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+          <defs><radialGradient id="ig-btn" cx="30%" cy="107%" r="130%"><stop offset="0%" stop-color="#fdf497"/><stop offset="5%" stop-color="#fdf497"/><stop offset="45%" stop-color="#fd5949"/><stop offset="60%" stop-color="#d6249f"/><stop offset="90%" stop-color="#285AEB"/></radialGradient></defs>
+          <rect width="42" height="42" rx="10" fill="url(#ig-btn)"/>
+          <rect x="10" y="10" width="22" height="22" rx="6" fill="none" stroke="#fff" stroke-width="2"/>
+          <circle cx="21" cy="21" r="5.5" fill="none" stroke="#fff" stroke-width="2"/>
+          <circle cx="27.5" cy="14.5" r="1.4" fill="#fff"/>
+        </svg>
         Follow on Instagram
       </a>
     </div>
@@ -1071,7 +1078,7 @@ img{max-width:100%;display:block;height:auto}
     s.async = true;
     document.body.appendChild(s);
   }
-  // Use IntersectionObserver — load only when user scrolls near the section
+  // Use IntersectionObserver � load only when user scrolls near the section
   if('IntersectionObserver' in window){
     var obs = new IntersectionObserver(function(entries){
       if(entries[0].isIntersecting){ loadEmbeds(); obs.disconnect(); }
@@ -1097,60 +1104,69 @@ img{max-width:100%;display:block;height:auto}
       <button class="filter-btn" data-filter="prewedding">Pre-Wedding</button>
       <button class="filter-btn" data-filter="events">Cultural</button>
       <button class="filter-btn" data-filter="baby">Baby &amp; Maternity</button>
+      <button class="filter-btn" data-filter="portfolio">Portfolio</button>
     </div>
     <div class="masonry" id="masonry-grid">
       <div class="masonry-item" data-category="wedding" data-src="photos/wedding/viji.webp">
-        <img data-src="photos/wedding/viji.webp" src="" alt="Wedding Photography Mangalore - Viji Wedding" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/w3.webp">
-        <img data-src="photos/wedding/w3.webp" src="" alt="Traditional Wedding Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/reception.webp">
-        <img data-src="photos/wedding/reception.webp" src="" alt="Wedding Reception Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/w4.webp">
-        <img data-src="photos/wedding/w4.webp" src="" alt="Candid Wedding Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/wedding/viji.webp" src="" alt="Wedding Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
       <div class="masonry-item" data-category="prewedding" data-src="photos/prewedding/pre1.webp">
-        <img data-src="photos/prewedding/pre1.webp" src="" alt="Pre-Wedding Shoot Mangalore Beach" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="prewedding" data-src="photos/prewedding/pre2.webp">
-        <img data-src="photos/prewedding/pre2.webp" src="" alt="Romantic Pre-Wedding Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="events" data-src="photos/cultural/cul1.webp">
-        <img data-src="photos/cultural/cul1.webp" src="" alt="Cultural Event Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
-      </div>
-      <div class="masonry-item" data-category="events" data-src="photos/cultural/cul2.webp">
-        <img data-src="photos/cultural/cul2.webp" src="" alt="Traditional Cultural Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/prewedding/pre1.webp" src="" alt="Pre-Wedding Shoot Mangalore Beach" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
       <div class="masonry-item" data-category="baby" data-src="photos/baby%20%26%20maternity/baby1.webp">
-        <img data-src="photos/baby%20%26%20maternity/baby1.webp" src="" alt="Baby Photography Mangalore - Newborn Shoot" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/baby%20%26%20maternity/baby1.webp" src="" alt="Baby Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="events" data-src="photos/cultural/cul1.webp">
+        <img data-src="photos/cultural/cul1.webp" src="" alt="Cultural Event Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/w3.webp">
+        <img data-src="photos/wedding/w3.webp" src="" alt="Traditional Wedding Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="prewedding" data-src="photos/prewedding/pre2.webp">
+        <img data-src="photos/prewedding/pre2.webp" src="" alt="Romantic Pre-Wedding Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
       <div class="masonry-item" data-category="baby" data-src="photos/baby%20%26%20maternity/baby2.webp">
-        <img data-src="photos/baby%20%26%20maternity/baby2.webp" src="" alt="Maternity Photography Mangalore" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/baby%20%26%20maternity/baby2.webp" src="" alt="Maternity Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="events" data-src="photos/cultural/cul2.webp">
+        <img data-src="photos/cultural/cul2.webp" src="" alt="Traditional Cultural Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
       <div class="masonry-item" data-category="baby" data-src="photos/baby%20%26%20maternity/baby3.webp">
-        <img data-src="photos/baby%20%26%20maternity/baby3.webp" src="" alt="Baby Milestone Photography" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/baby%20%26%20maternity/baby3.webp" src="" alt="Baby Milestone Photography" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="events" data-src="photos/cultural/cul3.webp">
+        <img data-src="photos/cultural/cul3.webp" src="" alt="Cultural Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/w4.webp">
+        <img data-src="photos/wedding/w4.webp" src="" alt="Candid Wedding Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="wedding" data-src="photos/wedding/dhanu.webp">
+        <img data-src="photos/wedding/dhanu.webp" src="" alt="Wedding Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
+      </div>
+      <div class="masonry-item" data-category="portfolio" data-src="photos/portfolio/portfolio1.webp">
+        <img data-src="photos/portfolio/portfolio1.webp" src="" alt="Portrait Photography Mangalore" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
       <div class="masonry-item" data-category="portfolio" data-src="photos/portfolio/portfolio2.webp">
-        <img data-src="photos/portfolio/portfolio2.webp" src="" alt="Professional Portrait Photography" width="400" height="600" style="object-fit:cover" class="lazy-img" decoding="async">
-        <div class="masonry-item-overlay">+</div>
+        <img data-src="photos/portfolio/portfolio2.webp" src="" alt="Professional Portrait Photography" width="400" style="object-fit:cover" class="lazy-img" decoding="async">
+        <div class="masonry-item-overlay"></div>
       </div>
     </div>
     <div class="gallery-cta reveal">
       <a href="https://drive.google.com/drive/folders/1B1HeGO3_h6I40DzIuPUhw33e64V9gx_5?usp=sharing" target="_blank" rel="noopener" class="btn btn-gold">
-        View Full Gallery →
+        View Full Gallery
       </a>
     </div>
   </div>
@@ -1167,7 +1183,7 @@ img{max-width:100%;display:block;height:auto}
     <div class="testimonials-track" id="testimonials-track">
       <div class="testimonial-card">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"We were blown away by how naturally Lathish blended into our wedding day. Not once did it feel staged. The candid moments he caught — the tears, the laughter — are things we didn't even notice happening. Absolutely priceless."</p>
+        <p class="testimonial-text">"We were blown away by how naturally Lathish blended into our wedding day. Not once did it feel staged. The candid moments he caught � the tears, the laughter � are things we didn't even notice happening. Absolutely priceless."</p>
         <div class="testimonial-author">Nisha &amp; Vivek Prabhu</div>
         <div class="testimonial-event">Wedding, Mangalore 2026</div>
       </div>
@@ -1179,26 +1195,26 @@ img{max-width:100%;display:block;height:auto}
       </div>
       <div class="testimonial-card">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"The cinematic film Lathish made for our wedding reception is something else. Every time we watch it we get goosebumps. The music, the editing, the way he captured the whole evening — it felt like a proper Bollywood film. Worth every rupee!"</p>
+        <p class="testimonial-text">"The cinematic film Lathish made for our wedding reception is something else. Every time we watch it we get goosebumps. The music, the editing, the way he captured the whole evening � it felt like a proper Bollywood film. Worth every rupee!"</p>
         <div class="testimonial-author">Ananya &amp; Suresh Nair</div>
         <div class="testimonial-event">Wedding Film, Udupi 2025</div>
       </div>
       <div class="testimonial-card">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"I was honestly nervous about a maternity shoot — didn't think I'd feel comfortable in front of the camera at 8 months. But Lathish made it so easy. The golden hour shots came out absolutely stunning. So glad I did it."</p>
+        <p class="testimonial-text">"I was honestly nervous about a maternity shoot � didn't think I'd feel comfortable in front of the camera at 8 months. But Lathish made it so easy. The golden hour shots came out absolutely stunning. So glad I did it."</p>
         <div class="testimonial-author">Rohit &amp; Meera Alva</div>
         <div class="testimonial-event">Maternity Shoot, Mangalore 2025</div>
       </div>
       <div class="testimonial-card">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"We hired Lathish for our pre-wedding shoot at Panambur Beach and the photos were beyond anything we imagined. He knew exactly when to click — the light, the angles, everything was perfect. Our families couldn't stop complimenting the album."</p>
+        <p class="testimonial-text">"We hired Lathish for our pre-wedding shoot at Panambur Beach and the photos were beyond anything we imagined. He knew exactly when to click � the light, the angles, everything was perfect. Our families couldn't stop complimenting the album."</p>
         <div class="testimonial-author">Divya &amp; Arjun Shetty</div>
         <div class="testimonial-event">Pre-Wedding Shoot, Mangalore 2025</div>
       </div>
       <!-- aria-hidden clones for seamless infinite scroll loop -->
       <div class="testimonial-card" aria-hidden="true">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"We were blown away by how naturally Lathish blended into our wedding day. Not once did it feel staged. The candid moments he caught — the tears, the laughter — are things we didn't even notice happening. Absolutely priceless."</p>
+        <p class="testimonial-text">"We were blown away by how naturally Lathish blended into our wedding day. Not once did it feel staged. The candid moments he caught � the tears, the laughter � are things we didn't even notice happening. Absolutely priceless."</p>
         <div class="testimonial-author">Nisha &amp; Vivek Prabhu</div>
         <div class="testimonial-event">Wedding, Mangalore 2026</div>
       </div>
@@ -1210,19 +1226,19 @@ img{max-width:100%;display:block;height:auto}
       </div>
       <div class="testimonial-card" aria-hidden="true">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"The cinematic film Lathish made for our wedding reception is something else. Every time we watch it we get goosebumps. The music, the editing, the way he captured the whole evening — it felt like a proper Bollywood film. Worth every rupee!"</p>
+        <p class="testimonial-text">"The cinematic film Lathish made for our wedding reception is something else. Every time we watch it we get goosebumps. The music, the editing, the way he captured the whole evening � it felt like a proper Bollywood film. Worth every rupee!"</p>
         <div class="testimonial-author">Ananya &amp; Suresh Nair</div>
         <div class="testimonial-event">Wedding Film, Udupi 2025</div>
       </div>
       <div class="testimonial-card" aria-hidden="true">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"I was honestly nervous about a maternity shoot — didn't think I'd feel comfortable in front of the camera at 8 months. But Lathish made it so easy. The golden hour shots came out absolutely stunning. So glad I did it."</p>
+        <p class="testimonial-text">"I was honestly nervous about a maternity shoot � didn't think I'd feel comfortable in front of the camera at 8 months. But Lathish made it so easy. The golden hour shots came out absolutely stunning. So glad I did it."</p>
         <div class="testimonial-author">Rohit &amp; Meera Alva</div>
         <div class="testimonial-event">Maternity Shoot, Mangalore 2025</div>
       </div>
       <div class="testimonial-card" aria-hidden="true">
         <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p class="testimonial-text">"We hired Lathish for our pre-wedding shoot at Panambur Beach and the photos were beyond anything we imagined. He knew exactly when to click — the light, the angles, everything was perfect. Our families couldn't stop complimenting the album."</p>
+        <p class="testimonial-text">"We hired Lathish for our pre-wedding shoot at Panambur Beach and the photos were beyond anything we imagined. He knew exactly when to click � the light, the angles, everything was perfect. Our families couldn't stop complimenting the album."</p>
         <div class="testimonial-author">Divya &amp; Arjun Shetty</div>
         <div class="testimonial-event">Pre-Wedding Shoot, Mangalore 2025</div>
       </div>
@@ -1230,7 +1246,7 @@ img{max-width:100%;display:block;height:auto}
   </div>
   <div style="text-align:center;margin-top:2.5rem">
     <a href="https://www.google.com/search?kgmid=/g/12m95pg3v&hl=en-IN&q=Lathish+Photography&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/osrp/m5/1&kgs=814a96003eae602e&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/osrp/m5/1#lrd=0x3ba35a451c3c28b5:0xc704ac48cb64a81f,1,,,," target="_blank" rel="noopener noreferrer" class="btn btn-gold">
-      View Full Reviews →
+      View Full Reviews
     </a>
   </div>
 </section>
@@ -1244,21 +1260,21 @@ img{max-width:100%;display:block;height:auto}
         <h3 class="contact-info-title">Let&apos;s Create Something Beautiful</h3>
         <p style="color:rgba(245,245,240,.6);font-size:.9rem;line-height:1.8;margin-bottom:2rem">Ready to capture your most precious moments? Reach out to us and let&apos;s discuss how we can tell your story through our lens.</p>
         <div class="contact-item">
-          <div class="contact-icon">📞</div>
+          <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
           <div class="contact-detail">
             <strong>Phone</strong>
             <a href="tel:+919845219355" style="color:rgba(245,245,240,.7)">+91 98452 19355</a>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-icon">✉</div>
+          <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
           <div class="contact-detail">
             <strong>Email</strong>
             <a href="mailto:lathishphotography@gmail.com" style="color:rgba(245,245,240,.7)">lathishphotography@gmail.com</a>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-icon">📍</div>
+          <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
           <div class="contact-detail">
             <strong>Studio Address</strong>
             Divya Enclave, Opp Canara College,<br>Jail Road, Mangalore
@@ -1340,7 +1356,7 @@ img{max-width:100%;display:block;height:auto}
     <h2 class="cta-title">Ready to Create <span style="color:var(--gold);font-style:italic">Timeless</span> Memories?</h2>
     <p class="cta-sub">Let us capture the moments that matter most to you.</p>
     <a href="#contact" class="btn btn-gold" style="font-size:.9rem;padding:1rem 2.5rem">
-      📅 Contact Us Today
+      Contact Us Today
     </a>
   </div>
 </section>
@@ -1351,9 +1367,7 @@ img{max-width:100%;display:block;height:auto}
       <!-- Brand Column -->
       <div class="footer-brand">
         <div class="footer-brand-logo-row">
-          <div class="nav-logo" style="flex-shrink:0">
-            <img src="photos/logo/logo.webp" alt="Lathish Photography logo" width="52" height="52" class="logo-img" loading="lazy" decoding="async">
-          </div>
+          <img src="photos/logo/logo.webp" alt="Lathish Photography logo" width="72" height="72" style="flex-shrink:0;height:72px;width:auto;object-fit:contain;display:block;" loading="lazy" decoding="async">
           <span class="footer-brand-name"></span>
         </div>
         <p class="footer-tagline">Capturing timeless moments with artistic vision. Premium wedding, portrait, and event photography in mangalore, Karnataka.</p>
@@ -1449,7 +1463,7 @@ img{max-width:100%;display:block;height:auto}
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">&copy; 2024 Lathish Photography. All rights reserved.</p>
+      <p class="footer-copy">&copy; 2026 Lathish Photography. All rights reserved.</p>
       <p class="footer-love">Made with <span>&#9829;</span> in mangalore</p>
     </div>
   </div>
@@ -1473,12 +1487,12 @@ img{max-width:100%;display:block;height:auto}
 (function() {
   'use strict';
 
-  // ── Share website ──────────────────────────────────────────
+  // -- Share website ------------------------------------------
   window.shareWebsite = function() {
     if (navigator.share) {
       navigator.share({
-        title: 'Lathish Photography – Premium Wedding & Portrait Photography Mangalore',
-        text: 'Check out Lathish Photography – capturing timeless moments in Mangalore & beyond.',
+        title: 'Lathish Photography � Premium Wedding & Portrait Photography Mangalore',
+        text: 'Check out Lathish Photography � capturing timeless moments in Mangalore & beyond.',
         url: 'https://www.lathishphotography.com/'
       }).catch(() => {});
     } else {
@@ -1491,13 +1505,13 @@ img{max-width:100%;display:block;height:auto}
     }
   };
 
-  // ── Navbar scroll ──────────────────────────────────────────
+  // -- Navbar scroll ------------------------------------------
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 80);
   }, {passive: true});
 
-  // ── Hero Image Slider ──────────────────────────────────────
+  // -- Hero Image Slider --------------------------------------
   (function() {
     const slides = document.querySelectorAll('.hero-slide');
     if (slides.length === 0) return;
@@ -1552,7 +1566,7 @@ img{max-width:100%;display:block;height:auto}
     showSlide(0);
   })();
 
-  // ── Hamburger menu ─────────────────────────────────────────
+  // -- Hamburger menu -----------------------------------------
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
   hamburger.addEventListener('click', () => {
@@ -1568,7 +1582,7 @@ img{max-width:100%;display:block;height:auto}
     });
   });
 
-  // ── Intersection Observer lazy loader ──────────────────────
+  // -- Intersection Observer lazy loader ----------------------
   // Loads gallery images only when they enter the viewport.
   // Eliminates blinking caused by content-visibility reflow.
   const lazyImages = document.querySelectorAll('img.lazy-img');
@@ -1600,7 +1614,7 @@ img{max-width:100%;display:block;height:auto}
     });
   }
 
-  // ── Gallery filter ─────────────────────────────────────────
+  // -- Gallery filter -----------------------------------------
   const filterBtns = document.querySelectorAll('.filter-btn');
   const masonryItems = document.querySelectorAll('.masonry-item');
   filterBtns.forEach(btn => {
@@ -1618,7 +1632,7 @@ img{max-width:100%;display:block;height:auto}
     });
   });
 
-  // ── Lightbox ───────────────────────────────────────────────
+  // -- Lightbox -----------------------------------------------
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
   const lightboxClose = document.getElementById('lightbox-close');
@@ -1641,7 +1655,7 @@ img{max-width:100%;display:block;height:auto}
   lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
-  // ── Smooth scroll ──────────────────────────────────────────
+  // -- Smooth scroll ------------------------------------------
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const target = document.querySelector(this.getAttribute('href'));
